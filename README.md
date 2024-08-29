@@ -1,6 +1,6 @@
 # *CS 25-307 AGIE follow-on*
 ## *VCU Health*
-## *Short Project Description*
+## *We’re redesigning the NIH AGIE web application this year, continuing with React and MySQL while adding GPT integration and deploying with Docker and Docker Compose, based on the insights we gained from last year's project*
 The directory structure in this GitHub is to allow the project to have all its resources self-contained.
 Open Source software should not just be a repository of code.  There are a number of directories to help you and others that will 
 follow in your foot steps.  It'll also allow the Linux Foundation OMP Mentorship program to keep track of your project and get
@@ -14,10 +14,10 @@ a better understanding of the problems you encountered during the developmemnt o
 | scr | Source code - create as many subdirectories as needed |
 
 ## Project Team
-- *Mentor's Name*  - *Company Affliation* - Mentor
-- *Technical Advisor Name* - *Company Affliation* - Technical Advisor
-- *Faculty Advisor's Name* - *Department* - Faculty Advisor
+- *Susan Kornstein*  - *VCU Health* - Mentor
+- *Susan Kornstein* - *VCU Health* - Technical Advisor
+- *John Leonard* - *CS* - Faculty Advisor
 - *Alina Minor* - *CS* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
+- *Sofanyas Genene* - *CS* - Student Team Member
+- *Stef Henry* - *CS* - Student Team Member
+- *Nahome Kifle* - *CS* - Student Team Member
