@@ -15,7 +15,7 @@ a better understanding of the problems you encountered during the developmemnt o
 
 ## Project Team
 - *Susan Kornstein*  - *VCU Health* - Mentor
-- *John Leonard* - *VCU Health* - Technical Advisor
+- *John Leonard* - *CS* - Technical Advisor
 - *John Leonard* - *CS* - Faculty Advisor
 - *Alina Minor* - *CS* - Student Team Member
 - *Sofanyas Genene* - *CS* - Student Team Member
