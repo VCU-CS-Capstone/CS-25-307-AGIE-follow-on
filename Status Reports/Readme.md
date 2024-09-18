@@ -12,8 +12,8 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Project Plan | Overall week by week plan of milestones | | |
 | Week 1 Status Report |As a group we met at the library at 6 PM on Thursday to get started and introduced ourselves.|We completed most of our team contract, set up a calendar to keep track of tasks, we accessed our project's repo, made a Discord server, and set up a Zoom to meet with our advisor Dr.Leonard on the following Thursday at 6 PM.| |
 | Week 2 Status Report |Worked on team contract and set up meeting |We completed our team contract and met with Dr. Leonard to understand more about our project. | |
-| Week 3 Status Report | | | |
-| Week 4 Status Report | | | |
+| Week 3 Status Report |Set up a meeting and worked on our week 1 status report document and looked at last year's work together|Deployed a prototype of last year's project and completed status report| |
+| Week 4 Status Report |Met as a team and worked on our github repository assignment |Completed our github repository assignment and added members to our team| Getting Sofanyas, Nahome, and Stef added to the Github team|
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
 | Week 7 Status Report | | | |
