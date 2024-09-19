@@ -1,3 +1,6 @@
+		                	CS 25-307 AGIE follow-on Week 1 Status Report
+							 09/12/24	       
+
 1) Project Members:
 
 * *Sofanyas Genene*  
