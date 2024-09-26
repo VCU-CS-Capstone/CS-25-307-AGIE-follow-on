@@ -14,7 +14,7 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 2 Status Report |Worked on team contract and set up meeting |We completed our team contract and met with Dr. Leonard to understand more about our project. | |
 | Week 3 Status Report |Set up a meeting and worked on our week 1 status report document and looked at last year's work together|Deployed a prototype of last year's project and completed status report| |
 | Week 4 Status Report |Met as a team and worked on our github repository assignment |Completed our github repository assignment and added members to our team| Getting Sofanyas, Nahome, and Stef added to the Github team|
-| Week 5 Status Report | | | |
+| Week 5 Status Report |Met as a team with Dr, Leonard to discuss next steps in project|Compiled a list of websites for the database and front end design inspo | |
 | Week 6 Status Report | | | |
 | Week 7 Status Report | | | |
 | Week 8 Status Report | | | |
