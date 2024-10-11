@@ -1,0 +1,18 @@
+---
+title: About this site
+---
+
+* This site is constructed using [Quarto](https://quarto.org/).
+
+* Learn more about [quarto websites.](https://quarto.org/docs/websites/)
+
+* Learn more about [quarto and gh-pages](https://quarto.org/docs/publishing/github-pages.html)
+
+    * Your website will be constructed in this *./website* folder.  
+
+    * You'll `quarto render` the folder and ALL the QMD files will be converted to HTML files 
+    and moved to the *./docs* folder.
+
+Here is an example of including an image.
+
+![](./assets/nih-long-logo.png)
