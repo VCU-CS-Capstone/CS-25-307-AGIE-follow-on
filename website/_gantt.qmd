@@ -26,6 +26,21 @@ gantt
     Project proposal: milestone, ca3, 3/1/2024, 0
     Poster: milestone, ca4, 4/1/2024, 0
 
+    section Catalog<br/>Other GIE<br/>sites
+    Build old site : m1, 1/7/2024, 3w
+    Convert to docker: m4, after m1, 2w
+    Normal forms: m5, after m4, 3w
+    SQL : m6, after m5, 4w
+    Adv. SQL: m7, after m6, 5w
+
+    section Review<br/>NSF ADVANCE<br/>sites
+    Build old site : m1, 1/7/2024, 3w
+    Convert to docker: m4, after m1, 2w
+    Normal forms: m5, after m4, 3w
+    SQL : m6, after m5, 4w
+    Prepare doc: milestone,m55, after m6, milestone
+    Adv. SQL: m7, after m6, 5w
+
     section Review<br/>NIH Landing<br/>Pages
     Build old site : m1, 1/7/2024, 3w
     Convert to docker: m4, after m1, 2w
@@ -34,14 +49,15 @@ gantt
     Prepare doc: milestone,m55, after m6, milestone
     Adv. SQL: m7, after m6, 5w
 
-    section Review<br/>Other GE<br/>sites
+    section Design AGIE repo
     Build old site : m1, 1/7/2024, 3w
     Convert to docker: m4, after m1, 2w
     Normal forms: m5, after m4, 3w
     SQL : m6, after m5, 4w
     Adv. SQL: m7, after m6, 5w
 
-    section Demo repo
+
+    section Build AGIE repo
     Build old site : m1, 1/7/2024, 3w
     Convert to docker: m4, after m1, 2w
     Normal forms: m5, after m4, 3w

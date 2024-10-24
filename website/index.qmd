@@ -8,10 +8,11 @@ Welcome to the *CS-24-307-AGIE* capstone project web site.
 
 At projects end our team will accomplish the following tasks.  You can learn more about these tasks in our [project plan](project-plan.qmd).
 
-* Catalog other GIE repositories and sites,
-* Review partners and publications of NSF ADVANCE,
-* Design the AGIE repository,
-* Build the first iteration of the AGIE repository.
+1.	Catalog other Gender Inclusion and Equity (GIE) repositories and sites,
+2.	Review partners and publications of NSF ADVANCE,
+3.	Review NIH repository landing pages and other repository documents.
+4.	Design the AGIE repository, incorporating lessons from tasks 1-3.
+5.	Build a second iteration of the AGIE repository (last year was the first).
 
 ## Navigating this site
 

@@ -12,34 +12,48 @@ The following summarize our major activities and tasks for our project.
 
 **Major tasks for gantt chart** - Brainstorm more activities.  Order the activities within each block and assign estimated deadlines.  A goal is to create very granular tasks, that have a deadline and can be assigned to a person, preferably one or two weeks long each.
 
-* Capstone deliverables.  There are milestones that are required for successful completion of the capstone project.
+### Capstone deliverables
 
-* Other GIE sites:
-    * Review of other GIE sites: gather URL and take screen shots. Document the purpose of each site, who owns/oversees it, who uses it (user personas), and whether it is still maintained.
-    * do a google search with terms like *gender equity med school*, *gender equity STEMM*, *gender equity university*, *gender equity initiatives*, etc.  Be creative!
-    * do a pubmed search with similar terms.
-    * in both cases, document the terms tried/used. 
-    * Review of NIH landing pages: NIH supports over 140 different repositories.  Which ones are similar to ours?
-    * Write a report that documents findings.
+* Team contract
+* Project plan
+* 1st semester poster
 
-* GIE literature review:
-    * Review ADVANCE program.  
-    * Identify publications and university partners
-    * What would a database that catalogs the partners and publications look like?
-    * What can already be found on pubmed?
-    * Write a report that documents findings.
 
-* Our AGIE site:
-    * User personas - who will be using our web site and why?  We need to brainstorm this and incorpate elements to help each persona get to where they need to be on the site!
-    * Get last years repository up and running:
-        * Someone on the team needs to learn how to build it
-        * then it needs to be converted into a set of docker containers, with the backend database in one, a graphql middleware, and a front-end in the last,
-    * Create draft landing pages in Figma.  What is unique about each page, who does it support?
-    * Design a database infrastructure.  Based on our review of the GIE literature, what data will we be storing?  How will it be retrieved?  Is a SQL database OK, or should we consider larger technologies like data lakes, or whatever.
-    * Build a database based on our design above.
-    * Write a report that documents findings.
+### Catalog Other GIE sites
 
-## GANTT chart
+* Review of other GIE sites: gather URL and take screen shots. Document the purpose of each site, who owns/oversees it, who uses it (user personas), and whether it is still maintained.
+* do a google search with terms like *gender equity med school*, *gender equity STEMM*, *gender equity university*, *gender equity initiatives*, etc.  Be creative!
+* do a pubmed search with similar terms.
+* in both cases, document the terms tried/used. 
+* Review of NIH landing pages: NIH supports over 140 different repositories.  Which ones are similar to ours?
+* Write a report that documents findings.
 
-The following GANTT chart offers a visual representation of our project plan.
+### Catalog NSF ADVANCE documents
+
+* Review ADVANCE program.  
+* Identify publications and university partners
+* What would a database that catalogs the partners and publications look like?
+* What can already be found on pubmed?
+* Write a report that documents findings.
+
+### NIH Landing Pages Review
+
+* Review other NIH landing sites
+* What can already be found on pubmed?
+* Write a report that documents findings.
+
+### Design AGIE repository
+
+* User personas - who will be using our web site and why?  We need to brainstorm this and incorpate elements to help each persona get to where they need to be on the site!
+* Get last years repository up and running:
+    * Someone on the team needs to learn how to build it
+    * then it needs to be converted into a set of docker containers, with the backend database in one, a graphql middleware, and a front-end in the last,
+* Create draft landing pages in Figma.  What is unique about each page, who does it support?
+* Design a database infrastructure.  Based on our review of the GIE literature, what data will we be storing?  How will it be retrieved?  Is a SQL database OK, or should we consider larger technologies like data lakes, or whatever.
+* Write a report that documents findings.
+
+### Build AGIE repository
+
+* Build a database based on our design above.
+* Write a report that documents findings.
 
