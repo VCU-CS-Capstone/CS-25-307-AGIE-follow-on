@@ -18,7 +18,7 @@ The following is a snapshot of our project plan and a summary of our weekly acti
 | Week 5 Status Report |Met as a team with Dr, Leonard to discuss next steps in project|Compiled a list of websites for the database and front end design inspo | |
 | Week 6 Status Report | | | |
 | Week 7 Status Report | | | |
-| Week 8 Status Report | | | |
+| Week 8 Status Report | This is a test!!!  | Did a bunch | Life is good |
 | Week 9 Status Report | | | |
 | Week 10 Status Report | | | |
 | Week 11 Status Report | | | |
