@@ -1,0 +1,50 @@
+<!--
+
+This gantt chart can be shared by other files by including where you want it.
+
+## {{< include _gantt.qmd >}}
+
+## Here are references
+
+* [Mermaid and Quarto](https://quarto.org/docs/authoring/diagrams.html)
+* [Mermaid and gantt charts](https://mermaid.js.org/syntax/gantt.html)
+
+* [Mermaid and GANTT charts](https://newdevsguide.com/2023/04/14/mermaid-gantt-chart/)
+
+-->
+
+
+
+```{mermaid}
+gantt
+    dateFormat  M/DD/YYYY
+    axisFormat  %W
+
+    section Capstone<br/>Activities
+    First meeting: milestone, ca1, 1/7/2024, 0
+    Team contract: milestone, ca2, 2/1/2024, 0
+    Project proposal: milestone, ca3, 3/1/2024, 0
+    Poster: milestone, ca4, 4/1/2024, 0
+
+    section Review<br/>NIH Landing<br/>Pages
+    Build old site : m1, 1/7/2024, 3w
+    Convert to docker: m4, after m1, 2w
+    Normal forms: m5, after m4, 3w
+    SQL : m6, after m5, 4w
+    Prepare doc: milestone,m55, after m6, milestone
+    Adv. SQL: m7, after m6, 5w
+
+    section Review<br/>Other GE<br/>sites
+    Build old site : m1, 1/7/2024, 3w
+    Convert to docker: m4, after m1, 2w
+    Normal forms: m5, after m4, 3w
+    SQL : m6, after m5, 4w
+    Adv. SQL: m7, after m6, 5w
+
+    section Demo repo
+    Build old site : m1, 1/7/2024, 3w
+    Convert to docker: m4, after m1, 2w
+    Normal forms: m5, after m4, 3w
+    SQL : m6, after m5, 4w
+    Adv. SQL: m7, after m6, 5w
+```

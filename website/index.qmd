@@ -1,6 +1,30 @@
 ---
-title: CS-25-307 AGIE
+title: Welcome
 ---
 
-This is a default index page.  Describe the project and where to learn more.
+Welcome to the *CS-24-307-AGIE* capstone project web site.  
+
+(add sentence or two summarizing your project.*
+
+At projects end our team will accomplish the following tasks.  You can learn more about these tasks in our [project plan](project-plan.qmd).
+
+* Catalog other GIE repositories and sites,
+* Review partners and publications of NSF ADVANCE,
+* Design the AGIE repository,
+* Build the first iteration of the AGIE repository.
+
+## Navigating this site
+
+* [Project plan](project-plan.qmd) - here you'll find our proposed project plan.  We identify major tasks and activities.
+
+* [Weekly status](status.qmd) - here you'll find weekly updates of our activities, accomplishments and issues.  
+
+* [References](references.qmd) - here you'll find a catalog of key URLS and other references that are helping shape the direction 
+of this project.  Eventually, we need to add a link to a shared/global zotero server containing individual papers, etc. 
+
+* [Working docs](working.qmd) - primarily for team members, this page contains links to the assorted google docs that we're drafting.
+
+* [Deliverables](deliverables.qmd) - this where you'll find final PDF versions of the documents we're creating.
+
+
 

@@ -1,0 +1,12 @@
+---
+title: Deliverables
+---
+
+
+These links point to documents that we submitted as part of our capstone project.
+
+* [Team contract](./deliverables/Capstone%2024-25%20-%20Team%20Contract%20Template%20AGIE%20follow-on.pdf){target="blank"} - As a requirement for our capstone project we were required to discuss, negotiate and agree to a set of principles that would guide how our team operates.  This document memorializes these conversations.
+
+* [Capstone project proposal](./deliverables/Project%20Proposal%20CS-25-307.pdf){target="blank"} - We customized a provided project proposal by adding our unique features into this document in red.
+
+* [Poster]() - our poster for the Fall capstone expo.

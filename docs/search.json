@@ -1,10 +1,73 @@
 [
   {
+    "objectID": "working.html",
+    "href": "working.html",
+    "title": "Working drafts and documents",
+    "section": "",
+    "text": "Our team prefers to create presentations and documents using google docs. Here are links to our working documents."
+  },
+  {
+    "objectID": "working.html#links-to-working-draft-documents",
+    "href": "working.html#links-to-working-draft-documents",
+    "title": "Working drafts and documents",
+    "section": "Links to working draft documents",
+    "text": "Links to working draft documents\nThese links point to our key working and drafting documents. Eventually, we’ll convert these drafts into PDF, store them in our ./deliverables folder, list them in our Project Deliverables section of this page.\n\nPoster - a google doc (or something else, like quarto) containing the working draft for our poster, due in November. Who is responsible for overseeing this draft? ONE person should be owner and others should contribute.\nManuscript 1 - Other GIE sites - (add summary. this aligns with a task in our project plan) Who is responsible for overseeing this draft? ONE person should be owner and others should contribute.\nManuscript 2 - NSF Advance Summary - (add better summary. this aligns with a task in our project plan.) a report that details the NSF advance program, the partners and papers, and other important features that can influence our direction. Who is responsible for overseeing this draft? ONE person should be owner and others should contribute.\nManuscript 3 - AGIE Design - (add better summary. this aligns with a task in our project plan.) Who is responsible for overseeing this draft? ONE person should be owner and others should contribute."
+  },
+  {
+    "objectID": "working.html#delivered-document-sources",
+    "href": "working.html#delivered-document-sources",
+    "title": "Working drafts and documents",
+    "section": "Delivered document sources",
+    "text": "Delivered document sources\nWe’ve completed work on these documents and converted them to PDF deliverables. Below are links to the source documents that can be further edited and cleaned.\n\nProject GITHUB repository - this repo is organized like a capstone project and contains this website plus other documents and code.\nTeam contract - As a requirement for our capstone project we were required to discuss, negotiate and agree to a set of principles that would guide how our team operates. This document memorializes these conversations.\nCapstone project proposal - We customized a provided project proposal by adding our unique features into this document in red."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Below are high-level references and benchmarks for our study. Additional details can be found in our project manuscripts.\nHere are links to key notes and research for the project. These can be artifacts that we’re creating, or those that others created."
+  },
+  {
+    "objectID": "references.html#self-study-examples",
+    "href": "references.html#self-study-examples",
+    "title": "References",
+    "section": "Self study examples",
+    "text": "Self study examples\n\nASEE Gender Equity Checklist"
+  },
+  {
+    "objectID": "references.html#other-gie-sites",
+    "href": "references.html#other-gie-sites",
+    "title": "References",
+    "section": "Other GIE sites",
+    "text": "Other GIE sites\n\nASEE EDGE"
+  },
+  {
+    "objectID": "references.html#nih-reference-documents",
+    "href": "references.html#nih-reference-documents",
+    "title": "References",
+    "section": "NIH reference documents",
+    "text": "NIH reference documents\n\nNIH Repositories for data sharing\nNIH - Selecting a repository for your data"
+  },
+  {
+    "objectID": "references.html#nsf-advance",
+    "href": "references.html#nsf-advance",
+    "title": "References",
+    "section": "NSF ADVANCE",
+    "text": "NSF ADVANCE\n\nNSF ADVANCE Awards"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CS-24-307 AGIE",
+    "title": "Welcome",
     "section": "",
-    "text": "This is a default index page. Describe the project and where to learn more."
+    "text": "Welcome to the CS-24-307-AGIE capstone project web site.\n(add sentence or two summarizing your project.*\nAt projects end our team will accomplish the following tasks. You can learn more about these tasks in our project plan."
+  },
+  {
+    "objectID": "index.html#navigating-this-site",
+    "href": "index.html#navigating-this-site",
+    "title": "Welcome",
+    "section": "Navigating this site",
+    "text": "Navigating this site\n\nProject plan - here you’ll find our proposed project plan. We identify major tasks and activities.\nWeekly status - here you’ll find weekly updates of our activities, accomplishments and issues.\nReferences - here you’ll find a catalog of key URLS and other references that are helping shape the direction of this project. Eventually, we need to add a link to a shared/global zotero server containing individual papers, etc.\nWorking docs - primarily for team members, this page contains links to the assorted google docs that we’re drafting.\nDeliverables - this where you’ll find final PDF versions of the documents we’re creating."
   },
   {
     "objectID": "about.html",
@@ -12,5 +75,54 @@
     "title": "About this site",
     "section": "",
     "text": "This site is constructed using Quarto.\nLearn more about quarto websites.\nLearn more about quarto and gh-pages\n\nYour website will be constructed in this ./website folder.\nYou’ll quarto render the folder and ALL the QMD files will be converted to HTML files and moved to the ./docs folder.\n\n\nHere is an example of including an image."
+  },
+  {
+    "objectID": "deliverables.html",
+    "href": "deliverables.html",
+    "title": "Deliverables",
+    "section": "",
+    "text": "These links point to documents that we submitted as part of our capstone project.\n\nTeam contract - As a requirement for our capstone project we were required to discuss, negotiate and agree to a set of principles that would guide how our team operates. This document memorializes these conversations.\nCapstone project proposal - We customized a provided project proposal by adding our unique features into this document in red.\nPoster - our poster for the Fall capstone expo."
+  },
+  {
+    "objectID": "project-plan.html",
+    "href": "project-plan.html",
+    "title": "Project plan",
+    "section": "",
+    "text": "The following summarize our major activities and tasks for our project.\ngantt\n    dateFormat  M/DD/YYYY\n    axisFormat  %W\n\n    section Capstone&lt;br/&gt;Activities\n    First meeting: milestone, ca1, 1/7/2024, 0\n    Team contract: milestone, ca2, 2/1/2024, 0\n    Project proposal: milestone, ca3, 3/1/2024, 0\n    Poster: milestone, ca4, 4/1/2024, 0\n\n    section Review&lt;br/&gt;NIH Landing&lt;br/&gt;Pages\n    Build old site : m1, 1/7/2024, 3w\n    Convert to docker: m4, after m1, 2w\n    Normal forms: m5, after m4, 3w\n    SQL : m6, after m5, 4w\n    Prepare doc: milestone,m55, after m6, milestone\n    Adv. SQL: m7, after m6, 5w\n\n    section Review&lt;br/&gt;Other GE&lt;br/&gt;sites\n    Build old site : m1, 1/7/2024, 3w\n    Convert to docker: m4, after m1, 2w\n    Normal forms: m5, after m4, 3w\n    SQL : m6, after m5, 4w\n    Adv. SQL: m7, after m6, 5w\n\n    section Demo repo\n    Build old site : m1, 1/7/2024, 3w\n    Convert to docker: m4, after m1, 2w\n    Normal forms: m5, after m4, 3w\n    SQL : m6, after m5, 4w\n    Adv. SQL: m7, after m6, 5w"
+  },
+  {
+    "objectID": "project-plan.html#detailed-project-plan.",
+    "href": "project-plan.html#detailed-project-plan.",
+    "title": "Project plan",
+    "section": "Detailed project plan.",
+    "text": "Detailed project plan.\nWhen we’re done planning, this set of activities and tasks should be memorialized into the GANTT chart and NOT change.\nMajor tasks for gantt chart - Brainstorm more activities. Order the activities within each block and assign estimated deadlines. A goal is to create very granular tasks, that have a deadline and can be assigned to a person, preferably one or two weeks long each.\n\nCapstone deliverables. There are milestones that are required for successful completion of the capstone project.\nOther GIE sites:\n\nReview of other GIE sites: gather URL and take screen shots. Document the purpose of each site, who owns/oversees it, who uses it (user personas), and whether it is still maintained.\ndo a google search with terms like gender equity med school, gender equity STEMM, gender equity university, gender equity initiatives, etc. Be creative!\ndo a pubmed search with similar terms.\nin both cases, document the terms tried/used.\nReview of NIH landing pages: NIH supports over 140 different repositories. Which ones are similar to ours?\nWrite a report that documents findings.\n\nGIE literature review:\n\nReview ADVANCE program.\n\nIdentify publications and university partners\nWhat would a database that catalogs the partners and publications look like?\nWhat can already be found on pubmed?\nWrite a report that documents findings.\n\nOur AGIE site:\n\nUser personas - who will be using our web site and why? We need to brainstorm this and incorpate elements to help each persona get to where they need to be on the site!\nGet last years repository up and running:\n\nSomeone on the team needs to learn how to build it\nthen it needs to be converted into a set of docker containers, with the backend database in one, a graphql middleware, and a front-end in the last,\n\nCreate draft landing pages in Figma. What is unique about each page, who does it support?\nDesign a database infrastructure. Based on our review of the GIE literature, what data will we be storing? How will it be retrieved? Is a SQL database OK, or should we consider larger technologies like data lakes, or whatever.\nBuild a database based on our design above.\nWrite a report that documents findings."
+  },
+  {
+    "objectID": "project-plan.html#gantt-chart",
+    "href": "project-plan.html#gantt-chart",
+    "title": "Project plan",
+    "section": "GANTT chart",
+    "text": "GANTT chart\nThe following GANTT chart offers a visual representation of our project plan."
+  },
+  {
+    "objectID": "status.html",
+    "href": "status.html",
+    "title": "Weekly project status",
+    "section": "",
+    "text": "The following is a snapshot of our project plan and a summary of our weekly activities.\n(Please add dates and make this report prettier!)"
+  },
+  {
+    "objectID": "status.html#weekly-updates---1st-semester",
+    "href": "status.html#weekly-updates---1st-semester",
+    "title": "Weekly project status",
+    "section": "Weekly updates - 1st Semester",
+    "text": "Weekly updates - 1st Semester\n\n\n\n\n\n\n\n\n\nDocument\nTasks\nAccomplishments\nIssues\n\n\n\n\nProject Plan\nOverall week by week plan of milestones\n\n\n\n\nWeek 1 Status ReportSep.5, 2024\nAs a group we met at the library at 6 PM on Thursday to get started and introduced ourselves.\nWe completed most of our team contract, set up a calendar to keep track of tasks, we accessed our project’s repo, made a Discord server, and set up a Zoom to meet with our advisor Dr.Leonard on the following Thursday at 6 PM.\n\n\n\nWeek 2 Status Report\nWorked on team contract and set up meeting\nWe completed our team contract and met with Dr. Leonard to understand more about our project.\n\n\n\nWeek 3 Status Report\nSet up a meeting and worked on our week 1 status report document and looked at last year’s work together\nDeployed a prototype of last year’s project and completed status report\n\n\n\nWeek 4 Status Report\nMet as a team and worked on our github repository assignment\nCompleted our github repository assignment and added members to our team\nGetting Sofanyas, Nahome, and Stef added to the Github team\n\n\nWeek 5 Status Report\nMet as a team with Dr, Leonard to discuss next steps in project\nCompiled a list of websites for the database and front end design inspo\n\n\n\nWeek 6 Status Report\n\n\n\n\n\nWeek 7 Status Report\n\n\n\n\n\nWeek 8 Status Report\n\n\n\n\n\nWeek 9 Status Report\n\n\n\n\n\nWeek 10 Status Report\n\n\n\n\n\nWeek 11 Status Report\n\n\n\n\n\nWeek 12 Status Report\n\n\n\n\n\nWeek 13 Status Report\n\n\n\n\n\nWeek 14 Status Report\n\n\n\n\n\nWeek 15 Status Report\n\n\n\n\n\nWeek 16 Status Report"
+  },
+  {
+    "objectID": "status.html#weekly-updates---2nd-semester",
+    "href": "status.html#weekly-updates---2nd-semester",
+    "title": "Weekly project status",
+    "section": "Weekly updates - 2nd Semester",
+    "text": "Weekly updates - 2nd Semester\n\n\n\nDocument\nTasks\nAccomplishments\nIssues\n\n\n\n\nWeek 1 Status Report\n\n\n\n\n\nWeek 2 Status Report\n\n\n\n\n\nWeek 3 Status Report\n\n\n\n\n\nWeek 4 Status Report\n\n\n\n\n\nWeek 5 Status Report\n\n\n\n\n\nWeek 6 Status Report\n\n\n\n\n\nWeek 7 Status Report\n\n\n\n\n\nWeek 8 Status Report\n\n\n\n\n\nWeek 9 Status Report\n\n\n\n\n\nWeek 10 Status Report\n\n\n\n\n\nWeek 11 Status Report\n\n\n\n\n\nWeek 12 Status Report\n\n\n\n\n\nWeek 13 Status Report\n\n\n\n\n\nWeek 14 Status Report\n\n\n\n\n\nWeek 15 Status Report\n\n\n\n\n\nWeek 16 Status Report"
   }
 ]

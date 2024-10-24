@@ -1,0 +1,28 @@
+---
+title: References
+---
+
+Below are high-level references and benchmarks for our study.  Additional details
+can be found in our project manuscripts.
+
+Here are links to key notes and research for the project.  These can be artifacts that we're creating, or those that
+others created.
+
+## Self study examples
+
+- [ASEE Gender Equity Checklist](https://edge.asee.org/checklist-tools-resources/)
+
+## Other GIE sites
+
+- [ASEE EDGE](https://edge.asee.org/)
+
+## NIH reference documents
+
+- [NIH Repositories for data sharing](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
+- [NIH - Selecting a repository for your data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository)
+
+## NSF ADVANCE 
+
+- [NSF ADVANCE Awards](https://www.nsf.gov/crssprgm/advance/awards.jsp)
+
+

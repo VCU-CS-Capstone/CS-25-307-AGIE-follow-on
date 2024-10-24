@@ -3,13 +3,21 @@ project:
   output-dir: ../docs
 
 website:
-  title: "AGIE"
+  title: "AGIE Home"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - href: project-plan.qmd
+        text: Project Plan
+      - href: status.qmd
+        text: Weekly status
+      - href: references.qmd
+        text: References
+      - href: working.qmd
+        text: Working Docs
+      - href: deliverables.qmd
+        text: Deliverables
       - href: about.qmd
-        text: About
+        text: About this site
 
 format:
   html:
