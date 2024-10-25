@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: "AGIE Home"
+  title: "CS25-307 Home"
   navbar:
     left:
       - href: project-plan.qmd
