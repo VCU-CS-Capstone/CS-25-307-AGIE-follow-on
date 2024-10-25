@@ -18,7 +18,6 @@ The following summarize our major activities and tasks for our project.
 * Project plan
 * 1st semester poster
 
-
 ### Catalog Other GIE sites
 
 * Review of other GIE sites: gather URL and take screen shots. Document the purpose of each site, who owns/oversees it, who uses it (user personas), and whether it is still maintained.
