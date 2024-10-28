@@ -21,43 +21,54 @@ gantt
     axisFormat  %W
 
     section Capstone<br/>Activities
-    First meeting: milestone, ca1, 1/7/2024, 0
-    Team contract: milestone, ca2, 2/1/2024, 0
-    Project proposal: milestone, ca3, 3/1/2024, 0
-    Poster: milestone, ca4, 4/1/2024, 0
+    First meeting: milestone, ca1, 8/29/2024, 0
+    Team contract: milestone, ca2, 9/05/2024, 0
+    Project proposal: milestone, ca3, 10/10/2024, 0
+    Prepare Project GANTT chart: milestone, ca4, 10/28/2024, 0
+    Fall Poster: milestone, ca5, 11/15/2024, 0
+    Prepare Project Flyer: milestone, ca6, 4/10/25, 0
+    Submit Project Flyer: milestone, ca7, 4/25/25, 0
 
     section Catalog<br/>Other GIE<br/>sites
-    Search google : m1, 1/7/2024, 3w
-    Search pubmed : m2, 3/1/2024, 4w
+    Search google : m1, 12/5/2024, 4w
+    Search pubmed : m2, 12/5/2024, 4w
+    Draft report submitted: m3, 12/5/2024, 4w
     
     section Review<br/>NSF ADVANCE<br/>sites
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Prepare doc: milestone,m55, after m6, milestone
-    Adv. SQL: m7, after m6, 5w
+    Build old site : m1, 11/15/2024, 2w
+    Convert to docker: m4, 11/15/2024, 2w
+    Normal forms: m5, 11/15/2024, 2w
+    SQL : m6, 11/15/2024, 2w
+    Prepare doc: milestone,m55, 11/15/2024, milestone
+    Adv. SQL: m7, 11/15/2024, 2w
+    Draft report submitted: m8, 11/15/2024, 2w
 
     section Review<br/>NIH Landing<br/>Pages
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Prepare doc hello world: milestone,m55, after m6, milestone
-    Adv. SQL: m7, after m6, 5w
+    Catalog and collect landing pages : m1, 11/1/2024, 1w
+    Collect user feedback: m4, 11/1/2024, 1w
+    Convert to docker: m4, 11/1/2024, 1w
+    Normal forms: m5, 11/1/2024, 1w
+    SQL: m6, 11/1/2024, 1w
+    Prepare doc: milestone, m55, 11/1/2024, milestone
+    Adv. SQL: m7, 11/1/2024, 1w
+    Draft report submitted: 11/1/2024, 1w
+    
 
     section Design AGIE repo
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Adv. SQL: m7, after m6, 5w
-
+    Choose front end design: m1, 1/27/2025, 2w
+    Choose back end database design: m4, 1/27/2025, 2w
+    Normal forms: m5, 1/27/2025, 2w
+    SQL: m6, 1/27/2025, 2w
+    Prepare doc hello world: milestone, m55, 1/27/2025, milestone
+    Adv. SQL: m7, 1/27/2025, 2w
+    Draft report submitted: 1/27/2025, 1w
 
     section Build AGIE repo
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Adv. SQL: m7, after m6, 5w
+    Build front end design(Stef, Alina): m1, 4/10/25, 10w
+    Build backend design(Sofanyas, Nahome): m4, 4/10/25, 10w
+    Convert to Docker: m5, 4/10/25, 10w
+    Normal forms: m5, 4/10/25, 10w
+    SQL : m6, 4/10/25, 10w
+    Adv. SQL: m7, 4/10/25, 10w
+    Draft report submitted: m8, 4/10/25, 10w
 ```
