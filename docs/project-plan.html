@@ -186,49 +186,88 @@ This gantt chart can be shared by other files by including where you want it.
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">gantt
-    dateFormat  M/DD/YYYY
-    axisFormat  %W
+    dateFormat  YYYY/MM/DD
+    axisFormat  %Y-%b
+
+    %% Capstone Activities are mandatory dates to track.
+    %% Be sure to include blocks of time to get stuff done.
 
     section Capstone&lt;br/&gt;Activities
-    First meeting: milestone, ca1, 1/7/2024, 0
-    Team contract: milestone, ca2, 2/1/2024, 0
-    Project proposal: milestone, ca3, 3/1/2024, 0
-    Poster: milestone, ca4, 4/1/2024, 0
+    First meeting: done, milestone, ca0, 8/29/2024, 0
+    Prepare contract : done, ca1, 8/29/2024, 1w
+    Submit Team contract: done, milestone, ca2, 9/05/2024, 0
+    Prepare Proposal: done, ca3, after ca2, 5w
+    Submit Project proposal: done, milestone, ca4, 10/10/2024, 0
 
+    Prepare Project GANTT chart: done, milestone, ca5, 10/28/2024,0
+
+    Prepare Project Flyer: 11/1/2024, 2w
+    Submit Project Flyer: milestone, ca7, 11/15/2024, 0
+
+    Prepare Fall Poster: ca8, 11/1/2024, 2w
+    Submit Fall Poster: milestone, ca9, 11/15/2024, 0
+
+    %% Catalog other sites
+    %% 
     section Catalog&lt;br/&gt;Other GIE&lt;br/&gt;sites
-    Search google : m1, 1/7/2024, 3w
-    Search pubmed : m2, 3/1/2024, 4w
+    Start task : milestone, co0, 11/1/2024,0
+    Lit search : co2, after co0, 4w
+    Draft report submitted: milestone, after co1 co2
     
+    %% Review NSF ADVANCE sites and build database
+    %% This database can inform the final database.
+    %% What are the entities? relationships?
+
     section Review&lt;br/&gt;NSF ADVANCE&lt;br/&gt;sites
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Prepare doc: milestone,m55, after m6, milestone
-    Adv. SQL: m7, after m6, 5w
+    Start task : milestone, nsf0, 1/1/2025,0
+    Lit search : nsf1, after nsf0, 4w
+    Draft report submitted: milestone, nsf2, after nsf1, 0
+
+    %% NIH Review of Landing Pages
+
+    %% modify the start day and the length of each task
+    %% add additional tasks as necessary.
+    %% did you start landing page review already?  is this your
+    %% presentation on Friday, 11/1/2024?
 
     section Review&lt;br/&gt;NIH Landing&lt;br/&gt;Pages
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Prepare doc hello world: milestone,m55, after m6, milestone
-    Adv. SQL: m7, after m6, 5w
+    Start task : done, milestone, nih0, 10/15/2024, 0
+    Catalog and collect landing pages : done, nih1, after nih0, 2w
+    Collect user feedback: active, nih2, after nih1, 1w
+    Prepare report : nih3, after nih2, 2w
+    Draft report submitted: milestone, nih4, after nih3, 0
+    
+
+    %% Design AGIE repository
+    %% Are these the correct tasks?
+    %% How was the last AGIE site designed?
+    %% What are you changing or improving?
 
     section Design AGIE repo
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Adv. SQL: m7, after m6, 5w
+    Start task : milestone, des0, 1/15/2025, 0
+    Choose front end design: des1, after des0, 2w
+    Choose back end database design: des2, after des1, 2w
+    Define entities and attributes: des3, after des0, 2w
+    Normal forms: des3, 1/27/2025, 2w
+    SQL: des4, 1/27/2025, 2w
+    Prepare doc: desc5, after des4, 3w
+    Adv. SQL: m7, 1/27/2025, 2w
+    Draft report submitted: 1/27/2025, 1w
 
+    %% Build AGIE repository
+    %% This is the easy part!  The design is hardest.
+    %% What are these steps?  They don't look like they belong.
 
     section Build AGIE repo
-    Build old site : m1, 1/7/2024, 3w
-    Convert to docker: m4, after m1, 2w
-    Normal forms: m5, after m4, 3w
-    SQL : m6, after m5, 4w
-    Adv. SQL: m7, after m6, 5w
+    Start build: milestone, b00, 1/15/2025, 0w
+    Build front end design(Stef, Alina): b01, after b00, 10w
+    Build backend design(Sofanyas, Nahome): b02, after b00, 10w
+    Convert to Docker: b03, after b00, 10w
+    Normal forms: b04, after b00, 10w
+    SQL : b05, after b00, 10w
+    Adv. SQL: b06, after b00, 10w
+    Prepare draft report: b08, after b06, 2w
+    Draft report submitted: milestone, b07, 4/10/2025, 0
 </pre>
 </div>
 <p></p></figure><p></p>
