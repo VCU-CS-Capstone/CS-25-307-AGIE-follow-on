@@ -9,6 +9,8 @@ Our team prefers to create presentations and documents using google docs.  Here 
 These links point to our key working and drafting documents.  Eventually, we'll convert these drafts into PDF, store
 them in our *./deliverables* folder, list them in our *Project Deliverables* section of this page.
 
+### Capstone documents
+
 * [Project Flyer](https://docs.google.com/document/d/1P3u-MeHPrxCR2wWtctOjpoH0cAAZjFVCGk4YWXvmF38/edit?tab=t.0) - Every project should have a one-page summary that discusses the project, the project team, offers one or two graphics as eye candy, introduces questions to be answers or tasks to be completed, and team contact information.
 
 * [Project Abstract](https://docs.google.com/document/d/1BH4taGU6PIo39bYik2JzLhisIrabRZDLJwsi8bBH72c/edit?tab=t.0) - Similar to the project flyer, this document serves as a one-page summary of the project.  The format for an abstract is very different, however. This project will require an abstract in the Spring 2025.
@@ -17,20 +19,29 @@ them in our *./deliverables* folder, list them in our *Project Deliverables* sec
 
 * [Poster - April 2025](https://docs.google.com/presentation/d/1Hsgmk8HXGAzjEb0hRwUuzQstZ3Qv_9eU/edit#slide=id.p1) - google slides (or something else, like quarto) containing the working draft for our poster, due in November. The document itself is stored on the main AGIE project drive in the *Resources/CS-25-307* folder.
 
+### Task 1 - Other GIE sites review
+
 * [Other GIE sites - Task 1](https://docs.google.com/document/d/1w38j7uy9V1JpkAihEc9MppCt5sLf9Oq96Gg1dUeNhb0/edit?tab=t.0) - This manuscript contains a summary of other gender inclusion sites, answer questions like: when were they created? Why? Are they still active? What was learned? Did they create any rubrics or other artifacts relevant to our project?
+
+### Task 2 - NSF ADVANCE review
 
 * [NSF ADVANCE Summary - Task 2](https://docs.google.com/document/d/16KtR9r17tNenoE6TvNeVcRE1dFBLdxu-7DubMRuYdzw/edit?tab=t.0) - This report that details the NSF advance program, the partners and papers, and other important features that can influence our direction. Who is responsible for overseeing this draft?  ONE person should be owner and others should contribute.
 
+### Task 3 - NIH landing page review
+
 * [NIH Landing Page Review - Task 3](https://docs.google.com/document/d/1v1yYPN3I56InEszYwve5vmXKTL4m0DmyeLuiGhQ9v24/edit?tab=t.0) - examples of NIH landing pages, what is required, what makesa good or bad landing page.  Considerations and lessons learned for design of our landing page.
 
+### Task 4 - AGIE repository design
+
 * [AGIE Repository Design - Task 4](https://docs.google.com/document/d/1h0fOzNKZ9YsvS7OwZEaPKfQ-yl7Tui41oyUeMHUuiyI/edit?tab=t.0) - This document describes the AGIE repository design including user personas, information architecture, data structure, etc.
+
+### Task 5 - AGIE repository build
 
 * [AGIE Repository Users Guide - Task 5](https://docs.google.com/document/d/1anYcb9TZ93aaQ75yHhj8Y6vT9HQaJlZO9cipmcWKOM0/edit?tab=t.0) - This document provides an overview of the AGIE site, how it operates, and how to modify it.
 
 ## Delivered document sources
 
-We've completed work on these documents and converted them to PDF deliverables.  Below are links to the source documents that
-can be further edited and cleaned.
+We've completed work on these documents and converted them to PDF deliverables.  Below are links to the source documents that can be further edited and cleaned.
 
 * [Project GITHUB repository](https://github.com/VCU-CS-Capstone/CS-25-307-AGIE-follow-on){target="blank"} - this repo is organized like a capstone project and contains this website plus other documents and code.
 
