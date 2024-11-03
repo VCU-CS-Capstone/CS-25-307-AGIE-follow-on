@@ -15,6 +15,8 @@ them in our *./deliverables* folder, list them in our *Project Deliverables* sec
 
 * [Project Abstract](https://docs.google.com/document/d/1BH4taGU6PIo39bYik2JzLhisIrabRZDLJwsi8bBH72c/edit?tab=t.0) - Similar to the project flyer, this document serves as a one-page summary of the project.  The format for an abstract is very different, however. This project will require an abstract in the Spring 2025.
 
+* [Presentation - to AGIE team 11/1/2014](https://docs.google.com/presentation/d/1TdHPmy0RBbraxlmVmJjc-ZncHHBJGqLjuqHdYW5Qs_k/edit#slide=id.g30bede4e5d9_2_34) - this is the presentation Alina gave to the AGIE team on Friday, Nov. 1, 2024.
+
 * [Poster - November 2024](https://docs.google.com/presentation/d/1zsT6TFu1ryp6bfvhuK0FnwIeWcRcm2I6/edit#slide=id.p1) - google slides (or something else, like quarto) containing the working draft for our poster, due in November. The document itself is stored on the main AGIE project drive in the *Resources/CS-25-307* folder.
 
 * [Poster - April 2025](https://docs.google.com/presentation/d/1Hsgmk8HXGAzjEb0hRwUuzQstZ3Qv_9eU/edit#slide=id.p1) - google slides (or something else, like quarto) containing the working draft for our poster, due in November. The document itself is stored on the main AGIE project drive in the *Resources/CS-25-307* folder.
