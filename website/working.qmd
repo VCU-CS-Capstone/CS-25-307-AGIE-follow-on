@@ -45,9 +45,9 @@ them in our *./deliverables* folder, list them in our *Project Deliverables* sec
 
 We've completed work on these documents and converted them to PDF deliverables.  Below are links to the source documents that can be further edited and cleaned.
 
-* [Project GITHUB repository](https://github.com/VCU-CS-Capstone/CS-25-307-AGIE-follow-on){target="blank"} - this repo is organized like a capstone project and contains this website plus other documents and code.
+* [Team GITHUB repository](https://github.com/VCU-CS-Capstone/CS-25-307-AGIE-follow-on){target="blank"} - this repo is organized like a capstone project and contains this website plus other documents and code.
 
-* [Team contract](https://docs.google.com){target="blank"} - As a requirement for our capstone project we were required to discuss, negotiate and agree to a set of principles that would guide how our team operates.  This document memorializes these conversations.
+* [Team contract](https://docs.google.com/document/d/16oKZysKXyQDTwaOxa6FjjwrcLZw5Nm3rYtpqGn5Jj0E/edit?tab=t.0){target="blank"} - As a requirement for our capstone project we were required to discuss, negotiate and agree to a set of principles that would guide how our team operates.  This document memorializes these conversations.
 
-* [Capstone project proposal](https://docs.google.com){target="blank"} - We customized a provided project proposal by adding our unique features into this document in red.
+* [Team project proposal](https://docs.google.com/document/d/17eXj7TKHPElqsxwsMRC_onJhREVNbRt5Ktzq5BI_kII/edit?tab=t.0#heading=h.gjdgxs){target="blank"} - We customized a provided project proposal by adding our unique features into this document in red.
 
