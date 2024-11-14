@@ -12,16 +12,16 @@ The following is a snapshot of our project plan and a summary of our weekly acti
 |---|---|---|---|
 | Project Plan | Overall week by week plan of milestones | | |
 | Week 1 Status Report<br/>Sep.5, 2024 |As a group we met at the library at 6 PM on Thursday to get started and introduced ourselves.|We completed most of our team contract, set up a calendar to keep track of tasks, we accessed our project's repo, made a Discord server, and set up a Zoom to meet with our advisor Dr.Leonard on the following Thursday at 6 PM.| |
-| Week 2 Status Report |Worked on team contract and set up meeting |We completed our team contract and met with Dr. Leonard to understand more about our project. | |
-| Week 3 Status Report |Set up a meeting and worked on our week 1 status report document and looked at last year's work together|Deployed a prototype of last year's project and completed status report| |
-| Week 4 Status Report |Met as a team and worked on our github repository assignment |Completed our github repository assignment and added members to our team| Getting Sofanyas, Nahome, and Stef added to the Github team|
-| Week 5 Status Report |Met as a team with Dr, Leonard to discuss next steps in project|Compiled a list of websites for the database and front end design inspo | |
-| Week 6 Status Report | | | |
-| Week 7 Status Report | | | |
-| Week 8 Status Report | This is a test!!!  | Did a bunch | Life is good |
-| Week 9 Status Report | | | |
-| Week 10 Status Report | | | |
-| Week 11 Status Report | | | |
+| Week 2 Status Report  |Worked on team contract and set up meeting |We completed our team contract and met with Dr. Leonard to understand more about our project. | |
+| Week 3 Status Report  |Set up a meeting and worked on our week 1 status report document and looked at last year's work together|Deployed a prototype of last year's project and completed status report| |
+| Week 4 Status Report  |Met as a team and worked on our github repository assignment |Completed our github repository assignment and added members to our team| Getting Sofanyas, Nahome, and Stef added to the Github team|
+| Week 5 Status Report  |Met as a team with Dr, Leonard to discuss next steps in project|Compiled a list of websites for the database and front end design inspo | |
+| Week 6 Status Report  |Met as a team with Dr. Leonard to work on project proposal and get clarification on questions |Completed sections of our project proposal and reviewed national repo examples as team | |
+| Week 7 Status Report  |Met as a team with Dr.Leonard, discussed setting up a time/date to meet with the research AGIE team |Completed out project proposal | |
+| Week 8 Status Report  |Met as a team and created a presentation for the AGIE research team |Completed Figma design prototype #1 | |
+| Week 9 Status Report  |Met as a team with Dr.Leonard for advice and review of our presentation |Completed presentation | |
+| Week 10 Status Report |Met as a team and worked on updating our GANTT chart in Github |Completed GANTT chart | |
+| Week 11 Status Report |Alina met with the research team for the first time to present our presentation, created and worked on Fall Poster |Completed first section of Fall Poster and presented to the research team |The rest of the team was unable to make it to the presentation, the other members will meet with the research team at a later date |
 | Week 12 Status Report | | | |
 | Week 13 Status Report | | | |
 | Week 14 Status Report | | | |
