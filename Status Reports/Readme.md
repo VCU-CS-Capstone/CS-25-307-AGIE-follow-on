@@ -19,8 +19,8 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Week 7 Status Report |Met as a team with Dr. Leonard to work on our project proposal together and discussed meeting with the research team|Completed our project proposal | |
 | Week 8 Status Report |Met as a team and began working on our presentation to present to the research team |Completed key slides and created Figma prototype #1 | |
 | Week 9 Status Report |With Dr.Leonard, as a team we introduced the draft of our presentation and prototypes to present to the research team |Accomplished receiving new ideas to add to our presentation |Meeting with the research team was delayed, to be determined |
-| Week 10 Status Report | | | |
-| Week 11 Status Report | | | |
+| Week 10 Status Report |Met as a team over Zoom, began thinking about and working on our Fall Poster |Completed GANTT chart for our project timeline | |
+| Week 11 Status Report |Met with the research team for the first time and steadily continued working on our Fall Poster |Presented to the AGIE research team and gathered different new ideas and feedback| |
 | Week 12 Status Report | | | |
 | Week 13 Status Report | | | |
 | Week 14 Status Report | | | |
