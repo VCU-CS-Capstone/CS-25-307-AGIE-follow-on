@@ -26,7 +26,7 @@ The following is a snapshot of our project plan and a summary of our weekly acti
 | Week 13 Status Report |Worked on the weekly status reports Github assignment |Completed Github assignment | |
 | Week 14 Status Report |Worked on the preliminary design report |Turned in the Github weekly status report assignment | |
 | Week 15 Status Report |Met as a team and completed the preliminary design report |Turned in our preliminary design report | |
-| Week 16 Status Report |Actively searching for new articles to add to our database and reviewing landing pages before next semester | | |
+| Week 16 Status Report |Actively searching for new articles to add to our database and reviewing landing pages/features before next semester | | |
 
 ## Weekly updates - 2nd Semester
 
