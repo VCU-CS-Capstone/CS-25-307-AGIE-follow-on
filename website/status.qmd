@@ -32,12 +32,12 @@ The following is a snapshot of our project plan and a summary of our weekly acti
 
 | Document | Tasks | Accomplishments| Issues |
 |---|---|---|---|
-| Week 1 Status Report | | | |
-| Week 2 Status Report | | | |
-| Week 3 Status Report | | | |
-| Week 4 Status Report | | | |
-| Week 5 Status Report | | | |
-| Week 6 Status Report | | | |
+| Week 1 Status Report |Met as a team over Zoom to get reaqauinted for the Spring semester |Updated Github/Quarto site and upgraded Google Drive folders with necessary subfolders for Spring semester | |
+| Week 2 Status Report |Met as a team over Zoom and discussed front end |Continuously added articles to the database and researched ways to add AI to automatically add articles to the database | |
+| Week 3 Status Report |Met as a team over Zoom with Dr. Leonard |We updated and turned in our updated team contract |Setup application structure and put it in a docker container |
+| Week 4 Status Report |Updated status reports on Github and met with Dr.Leonard to show the database structure for the repo |Presented backend database structure | |
+| Week 5 Status Report |Discussed setting up a meeting with Dr. Leonard to show the frontend build on February 28th. |Built one interactive prototype for front end to discuss with Dr. Leonard | |
+| Week 6 Status Report |Corresponded with Dr. Leonard and Zach for our upcoming meeting to present our front end prototypes |Finished creating both prototypes for our upcoming meeting | |
 | Week 7 Status Report | | | |
 | Week 8 Status Report | | | |
 | Week 9 Status Report | | | |
