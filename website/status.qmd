@@ -38,7 +38,7 @@ The following is a snapshot of our project plan and a summary of our weekly acti
 | Week 4 Status Report |Updated status reports on Github and met with Dr.Leonard to show the database structure for the repo |Presented backend database structure | |
 | Week 5 Status Report |Discussed setting up a meeting with Dr. Leonard to show the frontend build on February 28th. |Built one interactive prototype for front end to discuss with Dr. Leonard | |
 | Week 6 Status Report |Corresponded with Dr. Leonard and Zach for our upcoming meeting to present our front end prototypes |Finished creating both prototypes for our upcoming meeting | |
-| Week 7 Status Report | | | |
+| Week 7 Status Report |Met with Dr.Leonard and Zach to present our frontend prototypes and additionally to gather more information about how we can build our repo| | |
 | Week 8 Status Report | | | |
 | Week 9 Status Report | | | |
 | Week 10 Status Report | | | |
