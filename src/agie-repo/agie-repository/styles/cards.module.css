@@ -1,0 +1,128 @@
+/* Standard Card Styles - Base card styles for consistent appearance */
+.standardCard {
+  @apply bg-white rounded-lg shadow-lg border border-gray-200 transition-all hover:shadow-xl;
+  padding: 2rem;
+}
+
+.darkCard {
+  @apply bg-black rounded-lg shadow-lg transition-all hover:shadow-xl;
+  padding: 2rem;
+}
+
+/* Card Container Classes - For consistent spacing and layout */
+.cardContainer {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* Responsive Grid Layouts */
+.cardGrid2 {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+}
+
+.cardGrid3 {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.cardGrid4 {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+/* Card Header Styling */
+.cardHeader {
+  @apply flex items-start mb-6;
+}
+
+.cardIcon {
+  @apply flex-shrink-0 p-3 rounded-full mr-4;
+  background-color: rgba(205, 174, 94, 0.2);
+}
+
+.cardIconDark {
+  @apply flex-shrink-0 p-3 rounded-full mr-4 bg-opacity-20;
+  background-color: rgba(205, 174, 94, 0.3);
+}
+
+.cardTitle {
+  @apply text-xl font-semibold mb-4;
+  color: #CDAE5E;
+}
+
+.cardDivider {
+  @apply w-16 h-1 bg-black/10 mb-6;
+}
+
+.cardDividerDark {
+  @apply w-16 h-1 bg-white/20 mb-6;
+}
+
+/* Stat Card Styling */
+.statCard {
+  @apply bg-gray-50 rounded-lg p-5 shadow-sm border border-gray-200 hover:shadow-md transition-all;
+}
+
+.statValue {
+  @apply text-xl font-bold mb-2;
+  color: #CDAE5E;
+}
+
+.statLabel {
+  @apply text-gray-800 font-medium mb-2;
+}
+
+.statDescription {
+  @apply text-gray-600 text-sm;
+}
+
+/* Featured Card Styling */
+.featuredCard {
+  @apply border border-gray-200 rounded-lg p-5 bg-gray-50 hover:shadow-md transition-all;
+}
+
+.featuredTitle {
+  @apply text-xl font-semibold mb-2;
+  color: #CDAE5E;
+}
+
+.featuredMeta {
+  @apply text-gray-600 mb-2;
+}
+
+.featuredText {
+  @apply text-gray-800;
+}
+
+/* Resource Card Styling */
+.resourceCard {
+  @apply flex items-center justify-between p-4 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-md transition-all;
+}
+
+.resourceIcon {
+  @apply h-5 w-5 mr-3;
+  color: #CDAE5E;
+}
+
+.resourceTitle {
+  @apply font-medium;
+}
+
+.resourceMeta {
+  @apply text-sm text-gray-600;
+}
+
+.resourceButton {
+  @apply px-3 py-1 bg-black text-white text-sm rounded hover:bg-gray-800 transition-colors;
+}
+
+/* Banner Styling */
+.researchBanner {
+  @apply bg-black rounded-lg shadow-lg p-6 mb-8 transition-all;
+}
+
+.bannerTitle {
+  @apply text-2xl font-semibold mb-3;
+  color: #CDAE5E;
+}
+
+.bannerText {
+  @apply text-gray-300 max-w-3xl mx-auto;
+}

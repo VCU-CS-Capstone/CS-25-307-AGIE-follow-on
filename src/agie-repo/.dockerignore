@@ -1,0 +1,11 @@
+# agie-repository specific ignores
+agie-repository/.next
+agie-repository/node_modules
+agie-repository/coverage
+agie-repository/.DS_Store
+agie-repository/*.log
+
+# General ignores
+**/.next
+**/out
+**/.git
