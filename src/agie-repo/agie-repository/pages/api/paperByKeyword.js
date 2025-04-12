@@ -1,38 +1,42 @@
-import connectDB from './db';
+// pages/api/paperByKeyword.js
+import fs from "fs";
+import path from "path";
+import { parse } from "csv-parse/sync";
 
 export default async function handler(req, res) {
-  let connection;
-
   try {
-    const words = req.query.words; // Get words from query parameters
+    const { words } = req.query;
     if (!words) {
-      res.status(200).json([]); // Return an empty array if no words are provided
-      return;
+      return res.status(200).json([]);
     }
 
-    connection = await connectDB();
-    const sanitizedWords = words.split(' ').map(word => 
-      word.replace(/%/g, '\\%').replace(/_/g, '\\_')
-    ); // Sanitize inputs to avoid SQL injection
+    const searchTerms = words
+      .split(" ")
+      .map((term) => term.trim().toLowerCase())
+      .filter((term) => term.length > 0);
 
-    const queryParts = [];
-    const params = [];
+    // Read ALL_DATA.csv from the AGIE_DATA directory (one level above current folder)
+    const csvPath = path.join(process.cwd(), "..", "AGIE_DATA", "ALL_DATA.csv");
+    const fileContent = fs.readFileSync(csvPath, "utf8");
 
-    sanitizedWords.forEach((word, i) => {
-      const likePattern = `%${word}%`;
-      queryParts.push(`(title LIKE ? OR content LIKE ?)`);
-      params.push(likePattern, likePattern); // Push pattern twice for title and content
+    const records = parse(fileContent, {
+      columns: true,
+      skip_empty_lines: true,
     });
 
-    const query = `SELECT * FROM paper WHERE ${queryParts.join(' OR ')}`;
+    // Filter records where ANY of the search terms appear in title or content
+    const filtered = records.filter((record) => {
+      const title = (record.Title || "").toLowerCase();
+      const content = (record.Abstract || record.content || "").toLowerCase();
 
-    const [data] = await connection.query(query, params);
-    res.status(200).json(data);
+      return searchTerms.some(
+        (term) => title.includes(term) || content.includes(term)
+      );
+    });
 
+    res.status(200).json(filtered);
   } catch (error) {
-    console.error(`Error: ${error.message}`);
-    res.status(500).json({ error: 'An error occurred while fetching the papers' });
-  } finally {
-    connection.release();
+    console.error("Error reading CSV for keyword search:", error);
+    res.status(500).json({ error: "Failed to search CSV by keyword" });
   }
 }

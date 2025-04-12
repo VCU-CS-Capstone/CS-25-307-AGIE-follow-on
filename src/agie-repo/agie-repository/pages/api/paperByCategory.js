@@ -1,65 +1,65 @@
-/**
- * API handler for retrieving papers by category
- * Uses the BigQuery API which is already working for search functionality
- */
+// pages/api/paperByCategory.js
+import fs from "fs";
+import path from "path";
+import { parse } from "csv-parse/sync";
+
+const CATEGORY_FILE_MAP = {
+  Belonging: "AGIE_BELONGING.csv",
+  "Career & Life Integration": "AGIE_CAREER-LIFE.csv",
+  "Evaluation & Workload": "AGIE_EVALUATION&WORKLOAD.csv",
+  Harassment: "AGIE_HARASSMENT.csv",
+  "Inclusive Culture": "AGIE_INCLUSIVE_CULTURE.csv",
+  "Leadership & Advancement": "AGIE_LEADERSHIP_ADVANCEMENT.csv",
+  Mentorship: "AGIE_MENTORSHIP.csv",
+  "Pay Equity": "AGIE_PAY_EQUITY.csv",
+  Recruitment: "AGIE_RECRUITMENT.csv",
+  Retention: "AGIE_RETENTION.csv",
+  "Tenure & Promotion": "AGIE_TENURE&PROMOTION.csv",
+};
+
 export default async function handler(req, res) {
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method not allowed', data: [] });
+  if (req.method !== "GET") {
+    return res.status(405).json({ error: "Method not allowed" });
   }
 
-  // This assumes that the category names come as a comma-separated list or a single string.
-  let { categoryName } = req.query;
-
+  const { categoryName } = req.query;
   if (!categoryName) {
-    return res.status(400).json({ error: 'Missing categoryName query parameter', data: [] });
+    return res
+      .status(400)
+      .json({ error: "Missing categoryName query parameter" });
   }
 
-  // Ensure that categoryName is treated as an array.
-  const categories = Array.isArray(categoryName) ? categoryName : [categoryName];
+  // Normalize categoryName into an array
+  const categories = Array.isArray(categoryName)
+    ? categoryName
+    : [categoryName];
 
-  try {
-    // Prepare the BigQuery Cloud Function request
-    // The cloud function already accepts 'term' and 'field' parameters for searching
-    // We'll use the category name as the search term and set the field to 'Title'
-    // This effectively searches for papers with category names in their titles
-    
-    // Construct the URL with query parameters
-    const requests = categories.map(category => {
-      const url = new URL('https://us-central1-agie-backend.cloudfunctions.net/searchCsv');
-      url.searchParams.append('term', category);
-      url.searchParams.append('field', 'Title'); // Search in Title field
-      url.searchParams.append('limit', '100'); // Get more results for comprehensive filtering
-      
-      return fetch(url.toString())
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-          }
-          return response.json();
-        })
-        .catch(error => {
-          console.error(`Error fetching results for category ${category}:`, error);
-          return []; // Return empty array for this category
-        });
-    });
-    
-    // Wait for all requests to complete
-    const results = await Promise.all(requests);
-    
-    // Combine and deduplicate results
-    const allPapers = results.flat();
-    
-    // Remove duplicates based on some unique identifier
-    const uniquePapers = Array.from(new Map(
-      allPapers.map(paper => [paper.Title || paper.title, paper])
-    ).values());
-    
-    // Return the combined results
-    res.status(200).json(uniquePapers);
-    
-  } catch (error) {
-    console.error('Failed to fetch data:', error);
-    // Return an empty array instead of an error object to prevent frontend map() errors
-    res.status(500).json([]);
+  let allResults = [];
+
+  for (const category of categories) {
+    const fileName = CATEGORY_FILE_MAP[category.trim()];
+    if (!fileName) {
+      console.warn(`No matching file for category: ${category}`);
+      continue; // skip unknown category
+    }
+
+    const filePath = path.join(process.cwd(), "..", "AGIE_DATA", fileName);
+
+    try {
+      const fileContent = fs.readFileSync(filePath, "utf8");
+      const records = parse(fileContent, {
+        columns: true, // Assumes the CSV has header row
+        skip_empty_lines: true,
+      });
+      allResults.push(...records);
+    } catch (err) {
+      console.error(
+        `Failed to load file for category "${category}" -> ${fileName}:`,
+        err.message
+      );
+      // Skip if file doesn't exist or errors
+    }
   }
+
+  return res.status(200).json(allResults);
 }
