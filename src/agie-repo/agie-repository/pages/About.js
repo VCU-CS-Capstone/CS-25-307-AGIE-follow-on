@@ -70,45 +70,11 @@ const frameworks = [
 export default function About() {
   const [activeTab, setActiveTab] = useState("findings");
   return (
-    <div className="min-h-screen bg-white flex flex-col">
+    <div className="min-h-screen bg-gradient-to-b from-[#000080] via-[#000080] to-white flex flex-col">
       <Navbar />
 
-      {/* Hero Banner */}
-      <div className="relative bg-gradient-to-r from-yellow-500/90 to-yellow-400/90 py-16 pt-24 md:pt-32 mt-16 md:mt-20">
-        <div className="container mx-auto px-4">
-          <div className="items-center justify-center text-center">
-            <h1 className="text-5xl md:text-7xl uppercase font-bold text-black mb-4">
-              About AGIE
-            </h1>
-            <div className="w-24 h-1 bg-black mx-auto mt-2 mb-6"></div>
-            <p className="text-xl text-black/80 max-w-2xl mx-auto mb-8">
-              Advancing Gender Inclusivity Excellence
-            </p>
-          </div>
-        </div>
-
-        {/* Decorative corner accent */}
-        <div className="absolute bottom-0 right-0 w-24 h-24 bg-black/10 rounded-tl-full"></div>
-      </div>
-
       {/* Main Content */}
-      <CardContainer className="py-12 mb-20 flex-grow">
-        {/* Research Impact Banner */}
-        <div className="bg-black rounded-lg shadow-lg p-6 mb-8 transition-all hover:shadow-xl">
-          <div className="text-center">
-            <h2
-              className="text-2xl font-semibold mb-3"
-              style={{ color: "#CDAE5E" }}
-            >
-              Research-Driven Advancement
-            </h2>
-            <p className="text-gray-300 max-w-3xl mx-auto">
-              Our approach is grounded in evidence-based strategies derived from
-              the latest research on gender equity in medical sciences.
-            </p>
-          </div>
-        </div>
-
+      <CardContainer className="mt-40 py-12 mb-20 flex-grow">
         {/* Our Story Section - Enhanced with Research Focus */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8 transition-all hover:shadow-xl border border-gray-200">
           <div className="flex items-start mb-6">
@@ -116,12 +82,12 @@ export default function About() {
               className="flex-shrink-0 p-3 rounded-full mr-4"
               style={{ backgroundColor: "rgba(205, 174, 94, 0.2)" }}
             >
-              <FaBookOpen className="h-8 w-8" style={{ color: "#CDAE5E" }} />
+              <FaBookOpen className="h-8 w-8" style={{ color: "#FFFFFF" }} />
             </div>
             <div>
               <h2
                 className="text-3xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#00054B" }}
               >
                 Our Story
               </h2>
@@ -134,32 +100,9 @@ export default function About() {
                 supportive network that encourages collaboration and innovation.
               </p>
 
-              {/* Research Statistics Cards */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                {keyFindings.map((finding) => (
-                  <div
-                    key={finding.id}
-                    className="bg-gray-50 rounded-lg p-5 shadow-sm border border-gray-200 hover:shadow-md transition-all"
-                  >
-                    <h3
-                      className="text-xl font-bold mb-2"
-                      style={{ color: "#CDAE5E" }}
-                    >
-                      {finding.stat}
-                    </h3>
-                    <h4 className="text-gray-800 font-medium mb-2">
-                      {finding.title}
-                    </h4>
-                    <p className="text-gray-600 text-sm">
-                      {finding.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-
               <h3
                 className="text-xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#00054B" }}
               >
                 Why Research Matters
               </h3>
@@ -178,14 +121,14 @@ export default function About() {
           <div className="flex items-start mb-6">
             <div
               className="flex-shrink-0 p-3 rounded-full mr-4 bg-opacity-20"
-              style={{ backgroundColor: "rgba(205, 174, 94, 0.3)" }}
+              style={{ backgroundColor: "rgba(101, 96, 81, 0.3)" }}
             >
-              <FaLightbulb className="h-8 w-8" style={{ color: "#CDAE5E" }} />
+              <FaLightbulb className="h-8 w-8" style={{ color: "#FFFFFF" }} />
             </div>
             <div>
               <h2
                 className="text-3xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#FFFFFF" }}
               >
                 Our Vision
               </h2>
@@ -200,7 +143,7 @@ export default function About() {
 
               <h3
                 className="text-xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#FFFFFF" }}
               >
                 Research-Driven Objectives
               </h3>
@@ -209,7 +152,7 @@ export default function About() {
               <div className="bg-gray-900 rounded-lg p-6 mb-6 border border-gray-800">
                 <h4
                   className="text-lg font-medium mb-3"
-                  style={{ color: "#CDAE5E" }}
+                  style={{ color: "#FFFFFF" }}
                 >
                   Women in Medical Sciences Faculty Positions (%)
                 </h4>
@@ -220,13 +163,13 @@ export default function About() {
                         <div
                           className="absolute bottom-0 w-full rounded-t"
                           style={{
-                            backgroundColor: "#CDAE5E",
+                            backgroundColor: "#FFFFFF",
                             height: `${stat.womenPercent * 2}px`,
                           }}
                         ></div>
                       </div>
                       <span className="text-white text-xs">{stat.year}</span>
-                      <span className="text-yellow-400 text-xs font-bold mt-1">
+                      <span className="text-white text-xs font-bold mt-1">
                         {stat.womenPercent}%
                       </span>
                     </div>
@@ -252,7 +195,7 @@ export default function About() {
                     }`}
                     style={{
                       borderColor:
-                        activeTab === "findings" ? "#CDAE5E" : "transparent",
+                        activeTab === "findings" ? "#FFFFFF" : "transparent",
                     }}
                     onClick={() => setActiveTab("findings")}
                   >
@@ -267,7 +210,7 @@ export default function About() {
                     style={{
                       borderColor:
                         activeTab === "implementation"
-                          ? "#CDAE5E"
+                          ? "#FFFFFF"
                           : "transparent",
                     }}
                     onClick={() => setActiveTab("implementation")}
@@ -282,7 +225,7 @@ export default function About() {
                     }`}
                     style={{
                       borderColor:
-                        activeTab === "outcomes" ? "#CDAE5E" : "transparent",
+                        activeTab === "outcomes" ? "#FFFFFF" : "transparent",
                     }}
                     onClick={() => setActiveTab("outcomes")}
                   >
@@ -295,7 +238,7 @@ export default function About() {
                     <div>
                       <h4
                         className="text-lg font-medium mb-3"
-                        style={{ color: "#CDAE5E" }}
+                        style={{ color: "#FFFFFF" }}
                       >
                         Key Research Insights
                       </h4>
@@ -303,7 +246,7 @@ export default function About() {
                         <li className="flex items-start">
                           <span
                             className="inline-block w-4 h-4 mr-2 mt-1 rounded-full"
-                            style={{ backgroundColor: "#CDAE5E" }}
+                            style={{ backgroundColor: "#FFFFFF" }}
                           ></span>
                           <span>
                             Studies show that gender-diverse research teams
@@ -314,7 +257,7 @@ export default function About() {
                         <li className="flex items-start">
                           <span
                             className="inline-block w-4 h-4 mr-2 mt-1 rounded-full"
-                            style={{ backgroundColor: "#CDAE5E" }}
+                            style={{ backgroundColor: "#FFFFFF" }}
                           ></span>
                           <span>
                             Interventions focused on systemic changes show more
@@ -325,7 +268,7 @@ export default function About() {
                         <li className="flex items-start">
                           <span
                             className="inline-block w-4 h-4 mr-2 mt-1 rounded-full"
-                            style={{ backgroundColor: "#CDAE5E" }}
+                            style={{ backgroundColor: "#FFFFFF" }}
                           ></span>
                           <span>
                             Research indicates that addressing implicit bias at
@@ -341,7 +284,7 @@ export default function About() {
                     <div>
                       <h4
                         className="text-lg font-medium mb-3"
-                        style={{ color: "#CDAE5E" }}
+                        style={{ color: "#FFFFFF" }}
                       >
                         Research-Based Implementation Frameworks
                       </h4>
@@ -353,7 +296,7 @@ export default function About() {
                           >
                             <h5
                               className="font-medium mb-1"
-                              style={{ color: "#CDAE5E" }}
+                              style={{ color: "#FFFFFF" }}
                             >
                               {framework.title}
                             </h5>
@@ -370,7 +313,7 @@ export default function About() {
                     <div>
                       <h4
                         className="text-lg font-medium mb-3"
-                        style={{ color: "#CDAE5E" }}
+                        style={{ color: "#FFFFFF" }}
                       >
                         Measuring Success
                       </h4>
@@ -383,7 +326,7 @@ export default function About() {
                           <div className="bg-gray-700 p-3 rounded text-center">
                             <div
                               className="font-medium mb-1"
-                              style={{ color: "#CDAE5E" }}
+                              style={{ color: "#FFFFFF" }}
                             >
                               Representation
                             </div>
@@ -395,7 +338,7 @@ export default function About() {
                           <div className="bg-gray-700 p-3 rounded text-center">
                             <div
                               className="font-medium mb-1"
-                              style={{ color: "#CDAE5E" }}
+                              style={{ color: "#FFFFFF" }}
                             >
                               Publication Equity
                             </div>
@@ -407,7 +350,7 @@ export default function About() {
                           <div className="bg-gray-700 p-3 rounded text-center">
                             <div
                               className="font-medium mb-1"
-                              style={{ color: "#CDAE5E" }}
+                              style={{ color: "#FFFFFF" }}
                             >
                               Grant Success
                             </div>
@@ -419,7 +362,7 @@ export default function About() {
                           <div className="bg-gray-700 p-3 rounded text-center">
                             <div
                               className="font-medium mb-1"
-                              style={{ color: "#CDAE5E" }}
+                              style={{ color: "#FFFFFF" }}
                             >
                               Retention
                             </div>
@@ -438,85 +381,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* Research Highlights Section */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8 transition-all hover:shadow-xl border border-gray-200">
-          <div className="flex items-start mb-6">
-            <div
-              className="flex-shrink-0 p-3 rounded-full mr-4"
-              style={{ backgroundColor: "rgba(205, 174, 94, 0.2)" }}
-            >
-              <FaChartLine className="h-8 w-8" style={{ color: "#CDAE5E" }} />
-            </div>
-            <div>
-              <h2
-                className="text-3xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
-              >
-                Research Highlights
-              </h2>
-              <div className="w-16 h-1 bg-black/10 mb-6"></div>
-              <p className="text-lg text-gray-800 mb-6">
-                Our repository includes key research papers addressing barriers
-                and solutions for women in medical sciences:
-              </p>
-
-              {/* Research Paper Cards */}
-              <div className="space-y-4 mb-6">
-                <div className="border border-gray-200 rounded-lg p-5 bg-gray-50 hover:shadow-md transition-all">
-                  <h3
-                    className="text-xl font-semibold mb-2"
-                    style={{ color: "#CDAE5E" }}
-                  >
-                    Gender Disparities in Academic Medicine
-                  </h3>
-                  <p className="text-gray-600 mb-2">
-                    Journal of Medical Education (2023)
-                  </p>
-                  <p className="text-gray-800">
-                    This systematic review identified key intervention points
-                    for addressing the gender gap in medical faculty advancement
-                    through analysis of 150+ studies spanning two decades.
-                  </p>
-                </div>
-
-                <div className="border border-gray-200 rounded-lg p-5 bg-gray-50 hover:shadow-md transition-all">
-                  <h3
-                    className="text-xl font-semibold mb-2"
-                    style={{ color: "#CDAE5E" }}
-                  >
-                    Mentorship Models That Advance Women in Academic Medicine
-                  </h3>
-                  <p className="text-gray-600 mb-2">Academic Medicine (2022)</p>
-                  <p className="text-gray-800">
-                    A comparative analysis of mentorship programs showing that
-                    structured, institutional programs with clear advancement
-                    metrics show the highest success rates for women in academic
-                    medicine.
-                  </p>
-                </div>
-
-                <div className="border border-gray-200 rounded-lg p-5 bg-gray-50 hover:shadow-md transition-all">
-                  <h3
-                    className="text-xl font-semibold mb-2"
-                    style={{ color: "#CDAE5E" }}
-                  >
-                    Institutional Practices That Promote Gender Equity
-                  </h3>
-                  <p className="text-gray-600 mb-2">
-                    New England Journal of Medicine (2021)
-                  </p>
-                  <p className="text-gray-800">
-                    Analysis of policies and practices at 50 medical
-                    institutions reveals that transparent promotion criteria and
-                    family-friendly policies are most strongly correlated with
-                    women&apos;s advancement.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Acknowledgements Section */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8 transition-all hover:shadow-xl border border-gray-200">
           <div className="flex items-start">
@@ -524,12 +388,12 @@ export default function About() {
               className="flex-shrink-0 p-3 rounded-full mr-4"
               style={{ backgroundColor: "rgba(205, 174, 94, 0.2)" }}
             >
-              <FaUsers className="h-8 w-8" style={{ color: "#CDAE5E" }} />
+              <FaUsers className="h-8 w-8" style={{ color: "#FFFFFF" }} />
             </div>
             <div>
               <h2
                 className="text-3xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#00054B" }}
               >
                 Acknowledgements
               </h2>
@@ -558,7 +422,7 @@ export default function About() {
 
               <h3
                 className="text-xl font-semibold mt-8 mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#00054B" }}
               >
                 Research Contributors
               </h3>
@@ -573,7 +437,7 @@ export default function About() {
                   <div className="text-center px-4">
                     <div
                       className="text-3xl font-bold mb-1"
-                      style={{ color: "#CDAE5E" }}
+                      style={{ color: "#00054B" }}
                     >
                       150+
                     </div>
@@ -583,7 +447,7 @@ export default function About() {
                   <div className="text-center px-4">
                     <div
                       className="text-3xl font-bold mb-1"
-                      style={{ color: "#CDAE5E" }}
+                      style={{ color: "#00054B" }}
                     >
                       300+
                     </div>
@@ -593,7 +457,7 @@ export default function About() {
                   <div className="text-center px-4">
                     <div
                       className="text-3xl font-bold mb-1"
-                      style={{ color: "#CDAE5E" }}
+                      style={{ color: "#00054B" }}
                     >
                       6000+
                     </div>
@@ -602,26 +466,6 @@ export default function About() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Research-to-Action Card */}
-        <div className="bg-gradient-to-r from-black to-gray-900 rounded-lg shadow-lg p-6 mb-8 hover:shadow-xl transition-all">
-          <div className="text-center">
-            <div className="flex items-center justify-center mb-3">
-              <FaGraduationCap
-                className="h-6 w-6 mr-2"
-                style={{ color: "#CDAE5E" }}
-              />
-              <FaClipboardCheck
-                className="h-6 w-6"
-                style={{ color: "#CDAE5E" }}
-              />
-            </div>
-            <p className="text-xl font-light" style={{ color: "#CDAE5E" }}>
-              Translating research into action for meaningful advancement of
-              women in medical sciences
-            </p>
           </div>
         </div>
       </CardContainer>

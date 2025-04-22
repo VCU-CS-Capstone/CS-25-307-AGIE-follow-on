@@ -531,30 +531,17 @@ export default function SearchPage() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
-      <div className="relative bg-gradient-to-r from-yellow-500/90 to-yellow-400/90 py-16 pt-24 md:pt-32 mt-16 md:mt-20">
-        <div className="container mx-auto px-4">
-          <div className="items-center justify-center text-center">
-            <h1 className="text-5xl md:text-7xl uppercase font-bold text-black mb-4">
-              Search Database
-            </h1>
-            <div className="w-24 h-1 bg-black mx-auto mt-2 mb-6"></div>
-            <p className="text-xl text-black/80 max-w-2xl mx-auto mb-8">
-              Explore the AGIE Research Repository
-            </p>
-          </div>
-        </div>
-        <div className="absolute bottom-0 right-0 w-24 h-24 bg-black/10 rounded-tl-full"></div>
-      </div>
-      <CardContainer className="py-12 mb-20 flex-grow">
+
+      <CardContainer className="mt-40 py-12 mb-20 flex-grow">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
           <div className="md:col-span-1">
             <div
               className="bg-white rounded-lg shadow-lg p-6 border border-gray-200 border-t-4 sticky top-40 hover:shadow-xl transition-all"
-              style={{ borderTopColor: "#CDAE5E" }}
+              style={{ borderTopColor: "#00054B" }}
             >
               <h2
                 className="text-xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#00054B" }}
               >
                 <FaFilter className="inline-block mr-2 mb-1" />
                 Categories
@@ -586,7 +573,7 @@ export default function SearchPage() {
                   <button
                     onClick={applyFilters}
                     className="w-full px-4 py-2 rounded-lg text-white font-medium transition-colors duration-300 hover:bg-opacity-90"
-                    style={{ backgroundColor: "#CDAE5E" }}
+                    style={{ backgroundColor: "#00054B" }}
                     disabled={loading}
                   >
                     Apply Filters
@@ -606,7 +593,7 @@ export default function SearchPage() {
             <div className="bg-white rounded-lg shadow-lg p-5 mb-6 border border-gray-200 hover:shadow-xl transition-all">
               <h2
                 className="text-2xl font-semibold mb-4"
-                style={{ color: "#CDAE5E" }}
+                style={{ color: "#00054B" }}
               >
                 <FaSearch className="inline-block mr-2 mb-1" />
                 Search Papers
@@ -620,7 +607,7 @@ export default function SearchPage() {
                       onChange={(e) => setSearchTerm(e.target.value)}
                       placeholder="Enter search term"
                       className="w-full px-4 py-3 rounded-l-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-opacity-50"
-                      style={{ focusRing: "#CDAE5E" }}
+                      style={{ focusRing: "#00054B" }}
                     />
                     <select
                       value={searchField}
@@ -637,7 +624,7 @@ export default function SearchPage() {
                   <button
                     type="submit"
                     className="px-6 py-3 rounded-lg text-white font-medium transition-colors duration-300 hover:bg-opacity-90 min-w-[120px]"
-                    style={{ backgroundColor: "#CDAE5E" }}
+                    style={{ backgroundColor: "#00054B" }}
                     disabled={loading}
                   >
                     {loading ? (
@@ -723,7 +710,7 @@ export default function SearchPage() {
                       >
                         <h3
                           className="text-xl font-semibold mb-2"
-                          style={{ color: "#CDAE5E" }}
+                          style={{ color: "#00054B" }}
                         >
                           {item.Title || item.title || "No title available"}
                         </h3>
@@ -794,7 +781,7 @@ export default function SearchPage() {
                         ) : (
                           <div
                             className="text-sm mt-2"
-                            style={{ color: "#CDAE5E" }}
+                            style={{ color: "#00054B" }}
                           >
                             Click to view abstract
                           </div>
