@@ -38,16 +38,16 @@ The following is a snapshot of our project plan and a summary of our weekly acti
 | Week 4 Status Report |Updated status reports on Github and met with Dr.Leonard to show the database structure for the repo |Presented backend database structure | |
 | Week 5 Status Report |Discussed setting up a meeting with Dr. Leonard to show the frontend build on February 28th. |Built one interactive prototype for front end to discuss with Dr. Leonard | |
 | Week 6 Status Report |Corresponded with Dr. Leonard and Zach for our upcoming meeting to present our front end prototypes |Finished creating both prototypes for our upcoming meeting | |
-| Week 7 Status Report |Met with Dr.Leonard and Zach to present our frontend prototypes and additionally to gather more information about how we can build our repo| | |
-| Week 8 Status Report | | | |
-| Week 9 Status Report | | | |
-| Week 10 Status Report | | | |
-| Week 11 Status Report | | | |
-| Week 12 Status Report | | | |
-| Week 13 Status Report | | | |
-| Week 14 Status Report | | | |
-| Week 15 Status Report | | | |
-| Week 16 Status Report | | | |
+| Week 7 Status Report |Met with Dr.Leonard and Zach to present our frontend prototypes and additionally to gather more information about how we can build our repo website| | |
+| Week 8 Status Report |Updated our Github repo status reports and chose a frontend design| | |
+| Week 9 Status Report |Completed Expo Abstract | | |
+| Week 10 Status Report |Met as a team over Zoom and discussed tasks to complete such as the abstract and final poster | | |
+| Week 11 Status Report |Completed Expo Final Poster | | |
+| Week 12 Status Report |Corresponded with Zach about last year's repo and merged last year's database with this year's project | | |
+| Week 13 Status Report |Completed expo script as a team for the Capstone expo | | |
+| Week 14 Status Report |Finished Backend Development for the site | | |
+| Week 15 Status Report |Finished Frontend Development for the site and pushed changes to Github| | |
+| Week 16 Status Report |Attended the Capstone Expo as a team to present our project | | |
 
 
 
